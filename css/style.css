@@ -20,8 +20,12 @@
 }
 
 
-.secondary-link {
+#main-link {
+    font-weight: 600;
+}
 
+
+.secondary-link {
     text-align: center;
     font-size: 14px !important;
     font-weight: 800 !important;
@@ -80,48 +84,3 @@
     padding: 50px 100px 200px 100px
 }
 
-
-
-/* Article styles */
-.article-heading {
-    margin: 40px 0 8px 0;
-
-    font-size: 35px;
-    font-weight: 1000;
-
-    line-height: 120%;
-}
-
-
-.article-subheading {
-    margin-bottom: 10px;
-
-    font-size: 30px;
-    font-weight: 300;
-}
-
-
-.article-headings:hover, .article-headings:active {
-    color: #0077b6 !important;
-}
-
-
-.article-info {
-    padding-bottom: 40px;
-    width: 100%;
-
-    display: inline-block;
-
-    font-family: 'Lora';
-    font-size: 18px;
-    font-weight: 200;
-    font-style: italic;
-    color: rgb(169, 169, 169);
-
-    border-bottom: 1px solid lightgray;
-}
-
-
-.bio-link {
-    display: inline !important;
-}
